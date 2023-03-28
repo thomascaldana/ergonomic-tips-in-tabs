@@ -1,12 +1,20 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    word-wrap: break-word;
+}
+
 .tabs {
     border: 1px solid #cccccc;
     display: flex;
+    width: 100%;
+    text-align: justify;
 }
 
 .tabs__sidebar {
     width: 125px;
     flex-shrink: 0;
     background: #cccccc;
+   
 }
 
 .tabs__button {
@@ -30,7 +38,7 @@
 
 .tabs__button--active {
     font-weight: bold;
-    border-right: 2px solid #009879;
+    border-right: 4px solid #009879;
     background: #dddddd;
 
 }
@@ -39,6 +47,7 @@
     padding: 15px;
     font-size: 0.8rem;
     display: none;
+    width: 90%
 }
 
 .tabs__content--active {
@@ -47,4 +56,41 @@
 
 .tabs__content > :first-child {
     margin-top: 0;
+}
+
+h1 {
+   color:#03675b;
+   font-weight: 500;
+   text-align: center;
+   ;
+
+}
+
+#subtitle {
+    color:#058577;
+    font-weight: 500;
+    text-align: center;
+    
+    
+}
+
+#bibligraphy-title {
+    word-wrap: break-word;
+    color:#009879;
+    display: block;
+    text-align: justify;
+    width: 70%;
+}
+
+#bibligraphy-text {
+    text-align: justify;
+    display: block;
+    padding-right: 30px;
+}
+
+* {
+    font-family: 'Rubik', sans-serif;
+    word-wrap: break-word;
+    
+    
 }
